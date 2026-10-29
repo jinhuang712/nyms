@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="NYMs: Never, Yes, Maybe, situations">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5484D"/>
+      <stop offset=".35" stop-color="#30A46C"/>
+      <stop offset=".7" stop-color="#F5A524"/>
+      <stop offset="1" stop-color="#3E63DD"/>
+    </linearGradient>
+    <style>.f{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <text x="600" y="100" text-anchor="middle" class="f" font-size="64" font-weight="800" fill="url(#t)">NYMs</text>
+  <text x="600" y="145" text-anchor="middle" class="f" font-size="22" fill="#CBD5E1">Mutual reasoning and alignment for humans and AI</text>
+  <text x="600" y="172" text-anchor="middle" class="f" font-size="14" fill="#64748B">alignment, not classification</text>
+  <g transform="translate(40,190)">
+    <rect width="220" height="130" rx="20" fill="#1E293B" stroke="#E5484D" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="20" y="20" width="44" height="44" rx="12" fill="#E5484D"/>
+    <text x="42" y="52" text-anchor="middle" class="f" font-size="26" font-weight="700" fill="#fff">N</text>
+    <text x="20" y="92" class="f" font-size="22" font-weight="600" fill="#F8FAFC">Never</text>
+    <text x="20" y="114" class="f" font-size="14" fill="#94A3B8">what it is not</text>
+  </g>
+  <g transform="translate(340,190)">
+    <rect width="220" height="130" rx="20" fill="#1E293B" stroke="#30A46C" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="20" y="20" width="44" height="44" rx="12" fill="#30A46C"/>
+    <text x="42" y="52" text-anchor="middle" class="f" font-size="26" font-weight="700" fill="#fff">Y</text>
+    <text x="20" y="92" class="f" font-size="22" font-weight="600" fill="#F8FAFC">Yes</text>
+    <text x="20" y="114" class="f" font-size="14" fill="#94A3B8">what it is</text>
+  </g>
+  <g transform="translate(640,190)">
+    <rect width="220" height="130" rx="20" fill="#1E293B" stroke="#F5A524" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="20" y="20" width="44" height="44" rx="12" fill="#F5A524"/>
+    <text x="42" y="52" text-anchor="middle" class="f" font-size="26" font-weight="700" fill="#fff">M</text>
+    <text x="20" y="92" class="f" font-size="22" font-weight="600" fill="#F8FAFC">Maybe</text>
+    <text x="20" y="114" class="f" font-size="14" fill="#94A3B8">what it might be</text>
+  </g>
+  <g transform="translate(940,190)">
+    <rect width="220" height="130" rx="20" fill="#1E293B" stroke="#3E63DD" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="20" y="20" width="44" height="44" rx="12" fill="#3E63DD"/>
+    <text x="42" y="52" text-anchor="middle" class="f" font-size="26" font-weight="700" fill="#fff">s</text>
+    <text x="20" y="92" class="f" font-size="22" font-weight="600" fill="#F8FAFC">situations</text>
+    <text x="20" y="114" class="f" font-size="14" fill="#94A3B8">when it holds</text>
+  </g>
+</svg>
