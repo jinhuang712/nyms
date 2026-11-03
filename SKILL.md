@@ -1,6 +1,6 @@
 ---
 name: nyms
-description: "NYMs (Never, Yes, Maybe, situations) is a bidirectional reasoning and alignment protocol for humans and AI. Use it when the user mentions NYMs, or when the human and the AI have not yet reached a shared understanding: things are confused, a topic needs discussion, or a gap between the two sides shows up or is being closed. Once aligned, stop and act. Do not turn a clear request into a questionnaire."
+description: "NYMs (No, Yes, Maybe, situations) is a bidirectional reasoning and alignment protocol for humans and AI. Use it when the user mentions NYMs, or when the human and the AI have not yet reached a shared understanding: things are confused, a topic needs discussion, or a gap between the two sides shows up or is being closed. Once aligned, stop and act. Do not turn a clear request into a questionnaire."
 ---
 
 # NYMs — Mutual Reasoning and Alignment
@@ -15,17 +15,17 @@ NYMs has three primary judgments and one contextual dimension:
 
 | Element | Describing a concept | Guiding an action |
 | --- | --- | --- |
-| **N — Never** | What it is **not**; claims to exclude | What must **not** happen; boundaries and prohibitions |
+| **N — No** | What it is **not**; claims to exclude | What must **not** happen; boundaries and prohibitions |
 | **Y — Yes** | What it **is**; established or accepted claims | What is desired, required, or permitted |
 | **M — Maybe** | What it **might** be; hypotheses and open alternatives | What remains undecided, conditional, or worth exploring |
-| **s — situations** | The circumstances in which a claim holds | The conditions that affect applicability, risk, and choice |
+| **s — situations (when)** | The circumstances in which a claim holds | The conditions that affect applicability, risk, and choice |
 
-Treat `s` as a **contextual modifier of N/Y/M**, not as a fourth affirmative/negative judgment. A statement's scope may change across situations. Never use a situation to silently override a genuinely hard constraint; instead, state the constraint's scope precisely.
+In conversation, `s` may be called **When**. Treat `s` as a **contextual modifier of N/Y/M**, not as a fourth affirmative/negative judgment. A statement's scope may change across situations. Never use a situation to silently override a genuinely hard constraint; instead, state the constraint's scope precisely.
 
 Keep these distinctions explicit:
 
 - **Not true** is different from **not yet established**. Do not place missing evidence under N when it belongs under M.
-- **Required** is different from **permitted**. Qualify Y statements as `required`, `preferred`, `permitted`, or `established` when that difference matters.
+- **Required** is different from **permitted**. A Y entry means desired or accepted by default. When it is a hard requirement, say so in the entry itself, for example "Y: must run the tests".
 - **Possible** is different from **authorized**. M never grants permission to act by itself.
 - **Stated** is different from **inferred**. Never present a proposed NYMs entry as an agreement already made by the human.
 
@@ -56,7 +56,7 @@ Maintain decision authority: suggesting, questioning, or proposing an alternativ
 
 Apply the framework to its own behavior:
 
-### N — Never
+### N — No
 
 - Never impose a four-part questionnaire where ordinary conversation suffices.
 - Never invent a human's commitments, convert uncertainty into permission, or conceal disagreement.
@@ -77,7 +77,7 @@ Apply the framework to its own behavior:
 - Explore whether a different NYMs framing better represents the problem.
 - Permit the parties to revise this protocol when a concrete failure or better approach is identified.
 
-### s — situations
+### s — situations (when)
 
 - **Clear and low-risk:** Reason with NYMs silently; answer directly.
 - **Explicit NYMs request:** Show the relevant structure, even if some entries remain empty.

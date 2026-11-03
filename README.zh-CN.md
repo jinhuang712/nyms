@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="NYMs: Never, Yes, Maybe, situations" width="100%">
+<img src="assets/hero.svg" alt="NYMs: No, Yes, Maybe, situations" width="100%">
 
 [English](README.md) · **简体中文**
 
@@ -12,7 +12,7 @@
 
 ## ✨ NYMs 是什么?
 
-**NYMs**(**N**ever、**Y**es、**M**aybe、**s**ituations)是一个人与 AI 双向的推理与对齐 skill,以 Agent Skill 的形式提供给 Claude Code 和 Claude。
+**NYMs**(**N**o、**Y**es、**M**aybe、**s**ituations)是一个人与 AI 双向的推理与对齐 skill,以 Agent Skill 的形式提供给 Claude Code 和 Claude。
 
 > 🎯 目标是**对齐,不是分类**:看清什么被排除、什么被接受、什么还悬而未决、各自在什么情况下成立,然后回去做事。
 
@@ -20,10 +20,10 @@
 
 | | 描述一个概念 | 指导一个行动 |
 | --- | --- | --- |
-| <img src="assets/icon-n.svg" width="20" align="top"> **Never(绝不)** | 它**不是**什么 | 什么**不能**发生 |
+| <img src="assets/icon-n.svg" width="20" align="top"> **No(不)** | 它**不是**什么 | 什么**不能**发生 |
 | <img src="assets/icon-y.svg" width="20" align="top"> **Yes(是)** | 它**是**什么 | 想要的、必须的、允许的 |
 | <img src="assets/icon-m.svg" width="20" align="top"> **Maybe(或许)** | 它**可能**是什么 | 尚未决定、值得探索的 |
-| <img src="assets/icon-s.svg" width="20" align="top"> **situations(情境)** | 判断在什么情况下成立 | 什么会改变适用性和风险 |
+| <img src="assets/icon-s.svg" width="20" align="top"> **situations(情境 / when)** | 判断在什么情况下成立 | 什么会改变适用性和风险 |
 
 ### 🔍 它始终分清的四组区别
 

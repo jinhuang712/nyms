@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="NYMs: Never, Yes, Maybe, situations" width="100%">
+<img src="assets/hero.svg" alt="NYMs: No, Yes, Maybe, situations" width="100%">
 
 **English** · [简体中文](README.zh-CN.md)
 
@@ -12,7 +12,7 @@
 
 ## ✨ What is NYMs?
 
-**NYMs** (**N**ever, **Y**es, **M**aybe, **s**ituations) is a bidirectional reasoning and alignment skill for humans and AI, packaged as an Agent Skill for Claude Code and Claude.
+**NYMs** (**N**o, **Y**es, **M**aybe, **s**ituations) is a bidirectional reasoning and alignment skill for humans and AI, packaged as an Agent Skill for Claude Code and Claude.
 
 > 🎯 The goal is **alignment, not classification**: see what is excluded, what is accepted, what is still open, and when each holds, then get back to the work.
 
@@ -20,10 +20,10 @@
 
 | | Describing a concept | Guiding an action |
 | --- | --- | --- |
-| <img src="assets/icon-n.svg" width="20" align="top"> **Never** | What it is **not** | What must **not** happen |
+| <img src="assets/icon-n.svg" width="20" align="top"> **No** | What it is **not** | What must **not** happen |
 | <img src="assets/icon-y.svg" width="20" align="top"> **Yes** | What it **is** | What is desired, required, or permitted |
 | <img src="assets/icon-m.svg" width="20" align="top"> **Maybe** | What it **might** be | What is undecided or worth exploring |
-| <img src="assets/icon-s.svg" width="20" align="top"> **situations** | When a claim holds | What changes applicability and risk |
+| <img src="assets/icon-s.svg" width="20" align="top"> **situations (when)** | When a claim holds | What changes applicability and risk |
 
 ### 🔍 Four distinctions it keeps explicit
 
