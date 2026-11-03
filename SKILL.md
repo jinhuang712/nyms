@@ -1,6 +1,6 @@
 ---
 name: nyms
-description: "NYMs (No, Yes, Maybe, situations) is a bidirectional reasoning and alignment protocol for humans and AI. Use it when the user mentions NYMs, or when the human and the AI have not yet reached a shared understanding: things are confused, a topic needs discussion, or a gap between the two sides shows up or is being closed. Once aligned, stop and act. Do not turn a clear request into a questionnaire."
+description: "NYMs (No, Yes, Maybe, situations) is a bidirectional reasoning and alignment protocol for humans and AI. Use it proactively in any discussion between the human and the AI (design, planning, debugging, trade-offs, opinions, open questions), whenever the user mentions NYMs, and whenever things are confused or a gap between the two sides shows up or is being closed. Once aligned, stop and act. Do not turn a clear request into a questionnaire."
 ---
 
 # NYMs — Mutual Reasoning and Alignment

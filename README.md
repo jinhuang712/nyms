@@ -39,7 +39,8 @@ The AI states its own NYMs too, instead of only organizing the human's. Either s
 ## ⚡ When it triggers
 
 - 💬 You mention NYMs.
-- 🌫️ The human and the AI have not yet reached a shared understanding: things are confused, a topic needs discussion, or a gap shows up or is being closed.
+- 🗣️ Any discussion between the human and the AI: design, planning, debugging, trade-offs, opinions, open questions.
+- 🌫️ Things are confused, or a gap shows up or is being closed.
 
 🛑 Once aligned, it stops and acts. It never turns a clear request into a questionnaire.
 
